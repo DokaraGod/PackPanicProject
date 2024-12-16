@@ -14,6 +14,24 @@
 		{
 			"Name": "RawInput",
 			"Enabled": true
+		},
+		{
+			"Name": "PlasticSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "MobilePatchingUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "OpenXRVisionOS",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"VisionOS"
+			]
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }
